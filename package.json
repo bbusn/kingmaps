@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fontsource/lilita-one": "^5.0.19",
     "next": "14.1.4",
     "next-intl": "^3.11.1",
     "react": "^18",
