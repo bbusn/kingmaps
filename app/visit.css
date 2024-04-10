@@ -82,7 +82,7 @@
 }
 
 .progress {
-  width: 100%;
+  width: 80%;
   height: 20px;
   background-color: #f5f5f5;
   border-radius: 10px;
@@ -94,7 +94,7 @@
   height: 100%;
   border-radius: 10px;
   transition: 0.3s;
-  background-color: #fdfdfd;
+  background-color: #54736f;
 }
 
 .entry {
