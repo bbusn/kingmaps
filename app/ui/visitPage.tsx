@@ -1,9 +1,7 @@
 import React from "react";
-import ProgressBar from "../ui/progressBar";
+import ProgressBar from "@/app/ui/progressBar";
 import Button from "./button";
 import Image from "next/image";
-import Link from "next/link";
-import next from "next";
 
 interface VisitPageProps {
   pageTitle: string;

@@ -1,9 +1,6 @@
-/** @format */
 import styles from "./ProgressBar.module.css";
 
-// components/ProgressBar.js
-
-const ProgressBar = ({ progress }: { progress: number }) => {
+export default function ProgressBar({ progress }: { progress: number }) {
   return (
     <div className="progress">
       <div className="progress-bar" style={{ width: `${progress}% ` }}></div>
@@ -11,5 +8,3 @@ const ProgressBar = ({ progress }: { progress: number }) => {
     </div>
   );
 };
-
-export default ProgressBar;
