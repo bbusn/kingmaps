@@ -58,5 +58,10 @@
     "Title": "Vous êtes à",
     "Description": "L'entrée",
     "Text": " LA Cafétéria est la prochaine salle à droite"
+  },
+  "MMI": {
+    "Title": "Vous êtes à",
+    "Description": "La salle MMI",
+    "Text": "Les étudiants de MMI apprennent à créer des sites web, des vidéos et des images."
   }
 }
