@@ -1,0 +1,49 @@
+{
+    "Index": {
+        "Title" : "Finding your way in Chambéry IUT",
+        "Begin": "Begin",
+        "Iut-image-alt": "Image of IUT of Chambéry"
+    },
+    "Begin": {
+        "Title-1": "IUT of",
+        "Title-2": "Chambéry",
+        "Guided-visit": "Guided visit",
+        "Open-map": "Open map"
+    },
+    "Map": {
+        "Title": "The map",
+        "Description": "Touch a part to discover it"
+    },
+    "Mmi": {
+        "Title": "MMI",
+        "Description": "Multimedia and Internet Professions"
+    },
+    "Pec": {
+        "Title": "PEC",
+        "Description": "Packaging and Packaging Engineering"
+    },
+    "Gaco": {
+        "Title": "GACO",
+        "Description": "Administrative and Commercial Management of Organizations"
+    },
+    "Sgm": {
+        "Title": "SGM",
+        "Description": "Sciences and Materials Engineering"
+    },
+    "Gccd": {
+        "Title": "GCCD",
+        "Description": "Civil Engineering and Sustainable Development"
+    },
+    "Entrance": {
+        "Title": "Entrance",
+        "Description": "Welcome to the IUT of Chambéry"
+    },
+    "Cafetaria": {
+        "Title": "Cafetaria",
+        "Description": "The place to eat and drink"
+    },
+    "Corridors": {
+        "Title": "Corridors",
+        "Description": "Corridors of the IUT"
+    }
+}

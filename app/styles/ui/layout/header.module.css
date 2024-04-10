@@ -1,0 +1,48 @@
+
+.header {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    width: 90%;
+    height: 100px;
+}
+.headerLink {
+    -webkit-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+.headerReturn {
+    position: absolute;
+    top: 90%;
+    left: 0%;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.headerLink:hover {
+    -webkit-filter: brightness(1.2);
+            filter: brightness(1.2);
+    -webkit-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+.headerLink:active {
+    -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+            transform: scale(0.8);
+    -webkit-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+.headerTitle {
+    text-transform: uppercase;
+    line-height: 0.8;
+    font-size: 20px;
+    color: var(--primary-color);
+}
+.headerTitle p:last-of-type {
+    color: var(--blue-color);
+}
