@@ -1,5 +1,5 @@
 import React from "react";
-import ProgressBar from "./progressBar";
+import ProgressBar from "../ui/progressBar";
 import Button from "./button";
 import Image from "next/image";
 import Link from "next/link";
