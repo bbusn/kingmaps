@@ -1,4 +1,3 @@
-import ProgressBar from "../../../ui/progressBar";
 import Button from "./button";
 import Image from "next/image";
 
@@ -36,7 +35,10 @@ const VisitPage = ({
         </div>
         <Button href={nextLink} text={nextButton} accessKey="n" type="primary"/>
         <div className="Visit_container_footer_progress">
-          <ProgressBar progress={progress} />
+          <div className="progress">
+            <div className="progress-bar" style={{ width: `${progress}% ` }}></div>
+            {progress}%
+          </div>
           <p className="imprima">{progressNumber}/5</p>
         </div>
       </div>
