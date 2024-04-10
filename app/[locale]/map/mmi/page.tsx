@@ -11,6 +11,7 @@ export default function Mmi() {
       <h1 className="flex-center-center flex-column">{t('Title')}</h1>
       <Image src="/images/departements/mmi.png" alt="M.M.I Image" width={250} height={150} />
       <h2 className="flex-center-center flex-column">{t('Description')}</h2>
+      <p className="mapText flex-center-center flex-column">{t('Text')}</p>
     </div>
   );
 }

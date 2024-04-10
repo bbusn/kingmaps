@@ -11,6 +11,7 @@ export default function Sgm() {
       <h1 className="flex-center-center flex-column">{t('Title')}</h1>
       <Image src="/images/departements/sgm.png" alt="S.G.M Image" width={250} height={150} />
       <h2 className="flex-center-center flex-column">{t('Description')}</h2>
+      <p className="mapText lex-center-center flex-column">{t('Text')}</p>
     </div>
   );
 }

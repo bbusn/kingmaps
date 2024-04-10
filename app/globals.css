@@ -381,3 +381,11 @@ h2 {
   -ms-transform: scale(0.8);
   transform: scale(0.8);
 }
+p.mapText {
+  font-family: var(--font-imprima);
+  font-size: 14px;
+  color: var(--black);
+  font-weight: 300;
+  text-align: center;
+  width: 80%;
+}

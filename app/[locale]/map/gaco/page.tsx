@@ -11,6 +11,7 @@ export default function Gaco() {
       <h1 className="flex-center-center flex-column">{t('Title')}</h1>
       <Image src="/images/departements/gaco.png" alt="G.A.C.O Image" width={250} height={150} />
       <h2 className="flex-center-center flex-column">{t('Description')}</h2>
+      <p className="mapText flex-center-center flex-column">{t('Text')}</p>
     </div>
   );
 }

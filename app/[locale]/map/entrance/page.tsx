@@ -11,6 +11,7 @@ export default function Entrance() {
       <h1 className="flex-center-center flex-column">{t('Title')}</h1>
       <Image src="/images/departements/entrance.png" alt="Entrance Image" width={250} height={150} />
       <h2 className="flex-center-center flex-column">{t('Description')}</h2>
+      <p className="mapText flex-center-center flex-column">{t('Text')}</p>
     </div>
   );
 }
