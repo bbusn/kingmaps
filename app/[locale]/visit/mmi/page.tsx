@@ -18,7 +18,7 @@ export default function Mmi() {
         infoText={t("Description")}
         nextButton={t2("Next")}
         nextLink="/visit/gccd"
-        progress={40} // Change progress value as needed
+        progress={60} // Change progress value as needed
         progressNumber={3}
       />
     </div>
