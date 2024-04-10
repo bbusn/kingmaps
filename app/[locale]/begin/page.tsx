@@ -11,7 +11,8 @@ export default function Begin() {
       <Header />
       <Image src="/images/iut-top-view.png" alt="Vue du haut de l'IUT" width={98} height={140} />
       <h1 className="flex-center-center flex-column">{t('Title-1')} <span>{t('Title-2')}</span></h1>
-      <Button href="/map" text={t('Open-map')} accessKey="v" type='primary' />
+      <Button href="/map" text={t('Open-map')} accessKey="m" type='primary' />
+      <Button href="/visit" text={t('Guided-visit')} accessKey="v" type='secondary' />
     </div>
   );
 }

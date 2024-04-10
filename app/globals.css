@@ -129,7 +129,7 @@ a {
 }
 :root {
   --primary-color: #405b57;
-  --secondary-color: #ffd700;
+  --secondary-color: #757575;
   --tertiary-color: #c80202;
 
   --phone-color-1: #dedede;
@@ -351,7 +351,7 @@ h2 {
   width: 70%;
   color: var(--grey);
 }
-.primary-button {
+.primary-button, .secondary-button {
   background: var(--primary-color);
   color: var(--white);
   font-family: var(--font-lilita-one);
@@ -366,14 +366,17 @@ h2 {
   -ms-transform: scale(1);
   transform: scale(1);
 }
-.primary-button:hover {
+.secondary-button {
+  background: var(--secondary-color);
+}
+.primary-button:hover, .secondary-button:hover {
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
   -webkit-filter: brightness(1.5);
   filter: brightness(1.5);
 }
-.primary-button:active {
+.primary-button:active, .secondary-button:active {
   -webkit-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
