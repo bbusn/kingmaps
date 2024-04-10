@@ -19,7 +19,7 @@ export default function Mmi() {
         nextButton={t2("Next")}
         nextLink="t('Next-link')"
         progress={40} // Change progress value as needed
-        progressNumber={2}
+        progressNumber={3}
       />
     </div>
   );

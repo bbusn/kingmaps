@@ -17,9 +17,9 @@ export default function Mmi() {
         locationImageSrc="/images/departements/sgm.png"
         infoText={t("Description")}
         nextButton={t2("Next")}
-        nextLink="t('Next-link')"
+        nextLink="/begin"
         progress={40} // Change progress value as needed
-        progressNumber={2}
+        progressNumber={4}
       />
     </div>
   );
