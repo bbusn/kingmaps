@@ -55,6 +55,7 @@
     "Text": "Los pasillos del IUT son los lugares donde puedes caminar y conocer gente. Encontrarás las salas de los diferentes departamentos."
   },
   "Visit": {
-    "You-are-at": "Estás en"
+    "You-are-at": "Estás en",
+    "Next": "Siguiente"
   }
 }

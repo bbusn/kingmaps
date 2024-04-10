@@ -1,9 +1,9 @@
-/** @format */
-
 import React from "react";
 import ProgressBar from "./progressBar";
+import Button from "./button";
 import Image from "next/image";
 import Link from "next/link";
+import next from "next";
 
 interface VisitPageProps {
   pageTitle: string;
@@ -11,9 +11,10 @@ interface VisitPageProps {
   locationText: string;
   locationImageSrc: string;
   infoText: string;
-  backLink: string;
   nextLink: string;
+  nextButton: string;
   progress: number;
+  progressNumber: number;
 }
 
 const VisitPage = ({
@@ -22,37 +23,26 @@ const VisitPage = ({
   locationText,
   locationImageSrc,
   infoText,
-  backLink,
+  nextButton,
   nextLink,
   progress,
+  progressNumber,
 }: VisitPageProps): JSX.Element => {
+
   return (
-    <div className="Visit">
-      <div className="Visit_container">
-        <div className="Visit_container_header">
-          <h1>{pageTitle}</h1>
-          <div className="Maps"></div>
-        </div>
+      <div className="flex-center-center flex-column wd-90-pct">
+        <h1 className="lilita-one">{pageTitle}</h1>
         <div className="where">
-          <h2>VOUS ÊTES DANS</h2>
-          <h3 className="sgm-text-color">{locationText}</h3>
+          <h2 className="lilita-one blue">{locationText}</h2>
           <Image src={locationImageSrc} alt="maps" width={250} height={150} />
-          <h4>{infoText}</h4>
+          <h4 className="imprima mt-10">{infoText}</h4>
         </div>
-        <div className="Visit_container_footer">
-          <Link href={backLink} className="back">
-            RETOUR
-          </Link>
-          <Link href={nextLink} className="next">
-            SUIVANT
-          </Link>
-        </div>
+        <Button href={nextLink} text={nextButton} accessKey="n" type="primary"/>
         <div className="Visit_container_footer_progress">
           <ProgressBar progress={progress} />
-          <p>{progress}/5</p>
+          <p className="imprima">{progressNumber}/5</p>
         </div>
       </div>
-    </div>
   );
 };
 

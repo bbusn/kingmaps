@@ -55,6 +55,7 @@
     "Text": "Les couloirs de l'IUT sont les endroits où vous pouvez marcher et rencontrer des gens. Vous trouverez les salles des différents départements."
   },
   "Visit": {
-    "You-are-at": "Vous êtes à"
+    "You-are-at": "Vous êtes à",
+    "Next": "Suivant"
   }
 }
