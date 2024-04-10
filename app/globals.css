@@ -227,6 +227,12 @@ a {
 .ht-80-pct {
   height: 80%;
 }
+.ht-100-pct {
+  height: 100%;
+}
+.wd-100-pct {
+  width: 100%;
+}
 html,
 body {
   overflow: hidden;
