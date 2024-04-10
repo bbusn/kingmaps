@@ -1,58 +1,62 @@
 {
-    "Index": {
-        "Title" : "Se répérer dans l'IUT de Chambéry",
-        "Begin": "Commencer",
-        "Iut-image-alt": "Image de l'IUT de Chambéry"
-    },
-    "Begin": {
-        "Title-1": "IUT de",
-        "Title-2": "Chambéry",
-        "Guided-visit": "Visite guidée",
-        "Open-map": "Ouvrir la carte"
-    },
-    "Map": {
-        "Title": "La carte",
-        "Description": "Appuyer sur une partie pour la découvrir"
-    },
-    "Mmi": {
-        "Title": "MMI",
-        "Description": "Métiers du Multimédia et de l'Internet",
-        "Text": "Le BUT MMI est une formation généraliste qui permet d'acquérir des compétences dans les domaines de la communication, du web, de l'audiovisuel et du graphisme."
-    },
-    "Pec": {
-        "Title": "PEC",
-        "Description": "Packaging, Emballage et Conditionnement",
-        "Text": "Le BUT PEC est une formation généraliste qui permet d'acquérir des compétences dans les domaines de l'emballage, du conditionnement et de la logistique."
-    },
-    "Gaco": {
-        "Title": "GACO",
-        "Description": "Gestion Administrative et Commerciale des Organisations",
-        "Text": "Le BUT GACO est une formation généraliste qui permet d'acquérir des compétences dans les domaines de la gestion, du commerce et de l'administration."
-
-    },
-    "Sgm": {
-        "Title": "SGM",
-        "Description": "Sciences et Génie des Matériaux",
-        "Text": "Le BUT SGM est une formation généraliste qui permet d'acquérir des compétences dans les domaines des matériaux, de la mécanique et de la physique."
-    },
-    "Gccd": {
-        "Title": "GCCD",
-        "Description": "Génie Civil Construction Durable",
-        "Text": "Le BUT GCCD est une formation généraliste qui permet d'acquérir des compétences dans les domaines du génie civil, du développement durable et de l'énergie."
-    },
-    "Entrance": {
-        "Title": "Entrée",
-        "Description": "Bienvenue à l'IUT de Chambéry",
-        "Text": "L'entrée de l'IUT de Chambéry marque le début de votre visite. Vous trouverez les personnes qui vous guideront pendant votre visite."
-    },
-    "Cafetaria": {
-        "Title": "Caféteria",
-        "Description": "L'endroit idéal pour se restaurer",
-        "Text": "La cafétéria est l'endroit où vous pouvez manger et boire. Vous trouverez un large choix de snacks et de boissons."
-    },
-    "Corridors": {
-        "Title": "Couloirs",
-        "Description": "Les couloirs de l'IUT",
-        "Text": "Les couloirs de l'IUT sont les endroits où vous pouvez marcher et rencontrer des gens. Vous trouverez les salles des différents départements."
-    }
+  "Index": {
+    "Title": "Se répérer dans l'IUT de Chambéry",
+    "Begin": "Commencer",
+    "Iut-image-alt": "Image de l'IUT de Chambéry"
+  },
+  "Begin": {
+    "Title-1": "IUT de",
+    "Title-2": "Chambéry",
+    "Guided-visit": "Visite guidée",
+    "Open-map": "Ouvrir la carte"
+  },
+  "Map": {
+    "Title": "La carte",
+    "Description": "Appuyer sur une partie pour la découvrir"
+  },
+  "Mmi": {
+    "Title": "MMI",
+    "Description": "Métiers du Multimédia et de l'Internet",
+    "Text": "Le BUT MMI est une formation généraliste qui permet d'acquérir des compétences dans les domaines de la communication, du web, de l'audiovisuel et du graphisme."
+  },
+  "Pec": {
+    "Title": "PEC",
+    "Description": "Packaging, Emballage et Conditionnement",
+    "Text": "Le BUT PEC est une formation généraliste qui permet d'acquérir des compétences dans les domaines de l'emballage, du conditionnement et de la logistique."
+  },
+  "Gaco": {
+    "Title": "GACO",
+    "Description": "Gestion Administrative et Commerciale des Organisations",
+    "Text": "Le BUT GACO est une formation généraliste qui permet d'acquérir des compétences dans les domaines de la gestion, du commerce et de l'administration."
+  },
+  "Sgm": {
+    "Title": "SGM",
+    "Description": "Sciences et Génie des Matériaux",
+    "Text": "Le BUT SGM est une formation généraliste qui permet d'acquérir des compétences dans les domaines des matériaux, de la mécanique et de la physique."
+  },
+  "Gccd": {
+    "Title": "GCCD",
+    "Description": "Génie Civil Construction Durable",
+    "Text": "Le BUT GCCD est une formation généraliste qui permet d'acquérir des compétences dans les domaines du génie civil, du développement durable et de l'énergie."
+  },
+  "Entrance": {
+    "Title": "Entrée",
+    "Description": "Bienvenue à l'IUT de Chambéry",
+    "Text": "L'entrée de l'IUT de Chambéry marque le début de votre visite. Vous trouverez les personnes qui vous guideront pendant votre visite."
+  },
+  "Cafetaria": {
+    "Title": "Caféteria",
+    "Description": "L'endroit idéal pour se restaurer",
+    "Text": "La cafétéria est l'endroit où vous pouvez manger et boire. Vous trouverez un large choix de snacks et de boissons."
+  },
+  "Corridors": {
+    "Title": "Couloirs",
+    "Description": "Les couloirs de l'IUT",
+    "Text": "Les couloirs de l'IUT sont les endroits où vous pouvez marcher et rencontrer des gens. Vous trouverez les salles des différents départements."
+  },
+  "Visit": {
+    "Title": "Vous êtes à",
+    "Description": "L'entrée",
+    "Text": " LA Cafétéria est la prochaine salle à droite"
+  }
 }
