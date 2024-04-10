@@ -233,6 +233,9 @@ a {
 .wd-100-pct {
   width: 100%;
 }
+.wd-90-pct {
+  width: 90%;
+}
 html,
 body {
   overflow: hidden;

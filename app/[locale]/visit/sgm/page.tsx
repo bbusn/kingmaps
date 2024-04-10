@@ -7,33 +7,27 @@ import Header from "@/app/ui/layout/header";
 
 export default function Sgm() {
   return (
-    <div className="Visit">
+    <div className="flex-center-center flex-column ht-100-pct wd-90-pct gap-10">
       <Header />
-      <div className="Visit_container">
-        <div className="Visit_container_header"></div>
+      <div className="flex-center-center flex-column">
         <div className="where">
           <h2 className="lilita-one">VOUS ÊTES DANS</h2>
-          <h3 className="sgm-text-color">l'aile SGM</h3>
+          <h3 className="lilita-one sgm-text-color">l'aile SGM</h3>
           <Image
-            src="/images/visit/sgm.png"
+            src="/images/departements/sgm.png"
             alt="SGM image"
-            width={1000}
-            height={1000}
+            width={200}
+            height={150}
           />
-          <h4>UN Bachelor pour DEVENIR EXPERT DES Matériaux</h4>
+          <h4 className="imprima">UN Bachelor pour DEVENIR EXPERT DES Matériaux</h4>
         </div>
-        <div className="Visit_container_footer">
-          <a href="/visit" className="back">
-            RETOUR
-          </a>
-          <a href="/end-page" className="next">
+        <div className="lilita-one Visit_container_footer">
+          <a href="/visit/end-page" className="next">
             SUIVANT
           </a>
         </div>
         <div className="Visit_container_footer_progress">
-          <div className="progress">
-            <div className="progress-bar sgm"></div>
-          </div>
+          <ProgressBar progress={50} />
           <p>2/5</p>
         </div>
       </div>

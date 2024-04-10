@@ -14,7 +14,7 @@ export default function EndVisit() {
         <div className="where">
           <h2>Merci pour votre visite</h2>
           <Image
-            src="/images/visit/logos.png"
+            src="/images/departements/logos.png"
             alt="Merci"
             width={300}
             height={300}
