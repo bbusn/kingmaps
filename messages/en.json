@@ -55,8 +55,6 @@
     "Text": "The corridors of the IUT are the places where you can walk and meet people. You will find the rooms of the different departments."
   },
   "Visit": {
-    "Title": "You are at",
-    "Description": "The entrance",
-    "Text": "The cafeteria is the next room to the right"
+    "You-are-at": "You are at"
   }
 }
