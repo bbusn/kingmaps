@@ -5,24 +5,25 @@ import ProgressBar from "../../ui/ProgressBar";
 import Button from "@/app/ui/button";
 import Image from "next/image";
 import Header from "@/app/ui/layout/header";
+import { useTranslations } from "next-intl";
 
 export default function Visit() {
+  const t = useTranslations("Visit");
+
   return (
     <div className="flex-center-center flex-column ht-100-pct wd-100-pct">
       <Header />
       <div className="Visit_container">
         <div className="where">
-          <h2 className="lilita-one">VOUS ÊTES à</h2>
-          <h3 className="lilita-one entry-text-color">l'ENTRÉE</h3>
+          <h2 className="lilita-one">{t("Title")}</h2>
+          <h3 className="lilita-one entry-text-color">{t("Description")}</h3>
           <Image
             src="/images/departements/entrance.png"
             alt="Entry image"
             width={200}
             height={100}
           />
-          <h4 className="imprima">
-            LA Cafétéria est la prochaine salle à droite
-          </h4>
+          <h4 className="imprima">{t("Text")}</h4>
         </div>
         <div className="Visit_container_footer">
           <Button
