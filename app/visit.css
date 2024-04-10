@@ -1,0 +1,184 @@
+/** @format */
+/* <div class="Visit">
+      <div class="Visit_container">
+        <div class="Visit_container_header">
+          <h1>VISITE Guidée</h1>
+          <div class="Maps">
+            <img src="img/maps.png" alt="maps" />
+          </div>
+        </div>
+        <div class="where">
+          <h2>VOUS ÊTES à l’ENTREE</h2>
+          <img src="img/enter.png" alt="enter" />
+          <h3>LA Cafétéria est la prochaine salle à droite</h3>
+        </div>
+        <div class="Visit_container_footer">
+          <a href="visit.html" class="back">RETOUR</a>
+          <a href="visit/cafeteria.html" class="next">SUIVANT</a>
+
+          <div class="Visit_container_footer_progress">
+            <div class="progress">
+              <div class="progress-bar"></div>
+            </div>
+            <p>1/5</p>
+*/
+
+/* @import url("../css/main.css"); */
+
+.Visit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+  width: 100%;
+  height: 100%;
+}
+
+.Visit_container {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.Visit_container_header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.Visit_container_header h1 {
+  font-size: 2rem;
+  color: #54736f;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: var(--primary-font);
+}
+
+.where {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.where h2 {
+  font-size: 2rem;
+  color: #54736f;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-family: var(--primary-font);
+  text-align: center;
+}
+
+.where img {
+  width: auto;
+  height: 200px;
+  margin-bottom: 5px;
+  object-fit: cover;
+}
+
+.where h3 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: var(--primary-font);
+}
+
+.where h4 {
+  font-size: 1rem;
+  color: #b3b3b3;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  text-align: center;
+  width: 70%;
+}
+
+.Visit_container_footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  gap: 20px;
+}
+
+.Visit_container_footer a {
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-decoration: none;
+  color: #fff;
+  background-color: #54736f;
+  transition: 0.3s;
+}
+
+.Visit_container_footer a:hover {
+  background-color: #3e5d58;
+}
+
+.Visit_container_footer_progress {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.progress {
+  width: 100%;
+  height: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  width: 20%;
+  height: 100%;
+  border-radius: 10px;
+  transition: 0.3s;
+  background-color: #fdfdfd;
+}
+
+.entry {
+  background-color: #54736f;
+}
+
+.sgm {
+  color: #c80202;
+  background-color: #c80202;
+  width: 60%;
+}
+
+.end {
+  width: 100%;
+  background-color: var(--primary-color);
+}
+.sgm-text-color {
+  color: var(--tertiary-color);
+}
+
+.entry-text-color {
+  color: var(--blue-color);
+}
+.Visit_container_footer_progress p {
+  font-size: 1rem;
+  color: #54736f;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-left: 10px;
+}
