@@ -9,7 +9,7 @@ import Header from "@/app/ui/layout/header";
 
 export default function Visit() {
   return (
-    <div className="">
+    <div className="Visit">
       {/*  */}
       <Header />
       <div className="Visit_container">
