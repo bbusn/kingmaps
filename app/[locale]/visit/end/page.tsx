@@ -1,9 +1,10 @@
 /** @format */
 
 import Head from "next/head";
-import ProgressBar from "../../../ui/ProgressBar";
+import ProgressBar from "../../../ui/progressBar";
 import Image from "next/image";
 import Header from "@/app/ui/layout/header";
+import Link from "next/link";
 
 export default function EndVisit() {
   return (
@@ -21,18 +22,15 @@ export default function EndVisit() {
           />
         </div>
         <div className="Visit_container_footer">
-          <a href="sgm.html" className="back">
-            RETOUR
-          </a>
-          <a href="../start.html" className="next">
-            TERMINER
-          </a>
+          <Link href="begin/" className="next">
+            Terminer
+          </Link>
         </div>
         <div className="Visit_container_footer_progress">
           <div className="progress">
             <div className="progress-bar end"></div>
           </div>
-          <p>5/5</p>
+          <p className="imprima">5/5</p>
         </div>
       </div>
     </div>

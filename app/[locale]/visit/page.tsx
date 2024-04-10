@@ -1,5 +1,5 @@
 import Head from "next/head";
-import ProgressBar from "../../ui/ProgressBar";
+import ProgressBar from "../../ui/progressBar";
 import Button from "@/app/ui/button";
 import Image from "next/image";
 import Header from "@/app/ui/layout/header";
@@ -13,10 +13,10 @@ export default function Visit() {
           <h2 className="lilita-one">VOUS ÊTES à</h2>
           <h3 className="lilita-one entry-text-color">l'ENTRÉE</h3>
           <Image
-            src="/images/departements/entry.png"
-            alt="Entry image"
-            width={200}
-            height={100}
+            src="/images/departements/entrance.png"
+            alt="Entrance image"
+            width={250}
+            height={150}
           />
           <h4 className="imprima">LA Cafétéria est la prochaine salle à droite</h4>
         </div>
@@ -25,7 +25,7 @@ export default function Visit() {
         </div>
         <div className="Visit_container_footer_progress">
           <ProgressBar progress={20} />
-          <p>1/5</p>
+          <p className="imprima">1/5</p>
         </div>
       </div>
     </div>

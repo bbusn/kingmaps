@@ -1,9 +1,10 @@
 /** @format */
 
 import Head from "next/head";
-import ProgressBar from "../../../ui/ProgressBar";
+import ProgressBar from "../../../ui/progressBar";
 import Image from "next/image";
 import Header from "@/app/ui/layout/header";
+import Link from "next/link";
 
 export default function Sgm() {
   return (
@@ -16,19 +17,19 @@ export default function Sgm() {
           <Image
             src="/images/departements/sgm.png"
             alt="SGM image"
-            width={200}
+            width={250}
             height={150}
           />
           <h4 className="imprima">UN Bachelor pour DEVENIR EXPERT DES Matériaux</h4>
         </div>
         <div className="lilita-one Visit_container_footer">
-          <a href="/visit/end-page" className="next">
-            SUIVANT
-          </a>
+          <Link href="/visit/end" className="next">
+            Suivant
+          </Link>
         </div>
         <div className="Visit_container_footer_progress">
           <ProgressBar progress={50} />
-          <p>2/5</p>
+          <p className="imprima">2/5</p>
         </div>
       </div>
     </div>
