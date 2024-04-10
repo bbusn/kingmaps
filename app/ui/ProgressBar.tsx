@@ -1,5 +1,3 @@
-import styles from "./ProgressBar.module.css";
-
 export default function ProgressBar({ progress }: { progress: number }) {
   return (
     <div className="progress">
