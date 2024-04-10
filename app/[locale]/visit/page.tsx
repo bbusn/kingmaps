@@ -27,7 +27,7 @@ export default function Visit() {
           <h2>VOUS ÊTES à</h2>
           <h3 className="entry-text-color">l'ENTRÉE</h3>
           <Image
-            src="/images/visit/entry.png"
+            src="/images/departements/entrance.png"
             alt="Entry image"
             width={1000}
             height={1000}
