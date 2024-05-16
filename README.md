@@ -13,6 +13,9 @@ as it doesn't fetch a new url when you navigate inside.
 ![App Screenshot](https://benoitbusnardo.fr/assets/images/projects/bonus/kingmaps/screen2.png)
 ![App Screenshot](https://benoitbusnardo.fr/assets/images/projects/bonus/kingmaps/screen3.png)
 
+## Demonstration
+
+App hosted here : https://benoitbusnardo.fr/kingmaps
 
 ## Installation
 
