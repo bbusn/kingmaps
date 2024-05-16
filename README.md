@@ -1,6 +1,6 @@
 #  Kingmaps - Find your way in the IUT of Chambery
 
-![Logo](https://benoitbusnardo.fr/assets/images/projects/bonus/kingpmaps/logo.png)
+![Logo](https://benoitbusnardo.fr/assets/images/projects/bonus/kingmaps/logo.png)
 
 
 Welcome to Kingmaps, a web application in NextJS to find your way in 3 languages in IUT of Chambery. 
